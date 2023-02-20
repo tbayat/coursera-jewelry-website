@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+    font-family :'Times New Roman', Times, serif;
+    
+}
+
+.logo {
+    display:flex;
+    max: 100%;
+    height: auto;
+    right: 15px;
+}
+.product {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(34, 29, 29);
+}
+
+li {
+    margin: 5px;
+}
+
+ img {
+    width: 500px;
+
+ }
+
+ a {
+    color: rgb(228, 234, 240);
+ }
+
+ a:hover {
+    color: rgb(149, 216, 255);
+ }
+
+ a:checked {
+    color: rgb(225, 165, 92);
+ }
