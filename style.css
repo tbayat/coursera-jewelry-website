@@ -1,38 +1,42 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
-    margin: 20px;
     font-family :'Times New Roman', Times, serif;
     
 }
 
-.logo {
-    display:flex;
-    max: 100%;
-    height: auto;
-    right: 15px;
-}
-.product {
+header {
     text-align: center;
-    padding: 10px 20px;
-  }
+    background-image: url(assets/blue\ diamond.jpeg);
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+ 
+header img {
+    width: 700px;
+    height: 100px;
+}
 
 ul {
     display: flex;
     justify-content: center;
-    margin: 10px;
     list-style: none;
     border: 1px solid black;
-    border-radius: 20px;
-    background-color: rgb(34, 29, 29);
+    border-radius: 0px;
+    background-color: rgba(23, 23, 27, 0.949);
+    margin: 0px;
 }
 
 li {
-    margin: 5px;
+    font-size: large;
+    padding: 10px 20px;
 }
 
- img {
-    width: 500px;
+ article img {
+    width: 300px;
+    height: 300px;
 
  }
 
@@ -44,6 +48,37 @@ li {
     color: rgb(149, 216, 255);
  }
 
- a:checked {
-    color: rgb(225, 165, 92);
+ section {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 5px;
+    padding-inline: 10px;
+    justify-content: center;
+    text-align: center;
  }
+
+ footer img{
+    width: 200px;
+ }
+
+ figcaption {
+    text-align:justify;
+    text-justify:inter-word;
+ }
+p {
+    text-align: justify;
+}
+
+footer {
+    background-image: url(assets/diamonds\ 2.jpg);
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
